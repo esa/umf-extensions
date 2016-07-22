@@ -1,0 +1,16 @@
+Manifest-Version: 1.0
+Bundle-Localization: plugin
+Bundle-ManifestVersion: 2
+Bundle-Name: %pluginName
+Bundle-SymbolicName: com.vegaspace.jface;singleton:=true
+Bundle-Version: 2.0.0.qualifier
+Bundle-Activator: com.vegaspace.jface.Activator
+Bundle-Vendor: %providerName
+Require-Bundle: org.eclipse.core.runtime,
+ org.eclipse.core.resources,
+ org.eclipse.equinox.security,
+ org.eclipse.jface
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+Bundle-ActivationPolicy: lazy
+Export-Package: com.vegaspace.jface.dialogs,
+ com.vegaspace.jface.preference
